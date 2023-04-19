@@ -73,6 +73,3 @@ WHERE dea.continent is not null
 SELECT * , (total_vac/population)*100 as percentage_vaccinated
 FROM total_vac_temp
 WHERE continent is not null;
-
-
---Creating views
